@@ -41,14 +41,15 @@ header{
     background-color: black;
     display: flex;
     flex-wrap: wrap;
+    gap:20px;
     
 }
 .cam{
     display: flex;
     flex-wrap: wrap;
     border-radius: 10px;
-    width: calc( 100vw / 6 );
-    height: calc( 100vh / 4);
+    width: calc( 90vw / 6 );
+    height: calc( 70vh / 4);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -73,8 +74,38 @@ header{
     color: red;
 }
 footer{
+    color: white;
     width: 100vw;
     height: 100px;
     background-color: black;
-
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+footer .fa-solid{
+    font-size: 20px;
+}
+.footer-left{
+    gap: 10px;
+    display: flex;
+    /* justify-content: space-between; */
+    text-align: center;
+    
+    /* background-color: tomato; */
+}
+.footer-middle{
+    gap: 10px;
+    display: flex;
+    /* justify-content: space-between; */
+    text-align: center;
+    /* background-color: rgb(249, 71, 255); */
+}
+.footer-right{
+    
+    /* background-color: rgb(71, 255, 71); */
+}
+.exit{
+    background-color: red;
+    font-size: 15px;
 }
