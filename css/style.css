@@ -20,7 +20,7 @@ button{
 }
 /* header */
 header{
-    height: 30px;
+    height: 100px;
     color: white;
     background-color: black;
     display: flex;
@@ -36,7 +36,11 @@ header{
 /* grid-cam */
 
 .grid{
+    width: 100vw;
+    height: calc(100vh - 200px);
+    background-color: black;
     display: flex;
+    flex-wrap: wrap;
     
 }
 .cam{
@@ -46,6 +50,8 @@ header{
     width: calc( 100vw / 6 );
     height: calc( 100vh / 4);
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     background-image: url(https://picsum.photos/200/300);
 }
 .bottom-brt {
@@ -65,4 +71,10 @@ header{
 }
 .fa-microphone-slash{
     color: red;
+}
+footer{
+    width: 100vw;
+    height: 100px;
+    background-color: black;
+
 }
