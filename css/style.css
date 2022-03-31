@@ -5,3 +5,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* header */
+header{
+    height: 30px;
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-left .header-right{
+    display: flex;
+    width: 50vw
+}
