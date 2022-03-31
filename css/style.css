@@ -5,6 +5,19 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* common */
+
+button{
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 0,5em 1em;
+}
+.blu-brt{
+    background-color: rgb(51, 112, 229);
+}
 /* header */
 header{
     height: 30px;
@@ -13,8 +26,43 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 .header-left .header-right{
     display: flex;
-    width: 50vw
+    width: 50vw;
+    
+}
+/* grid-cam */
+
+.grid{
+    display: flex;
+    
+}
+.cam{
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    width: calc( 100vw / 6 );
+    height: calc( 100vh / 4);
+    background-repeat: no-repeat;
+    background-image: url(https://picsum.photos/200/300);
+}
+.bottom-brt {
+    display: flex;
+    /* width: 60%; */
+    height: 20px;
+    align-self: flex-end;
+    justify-content: flex-start;
+    background-color: rgb(29, 29, 27);
+    color: white;
+}
+.top-brt{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 20px;
+}
+.fa-microphone-slash{
+    color: red;
 }
